@@ -1,0 +1,160 @@
+body{
+   background: url(Darkback.JPG);
+   background-size: 100%;
+}
+
+.transbox{
+    font-size: 60px;
+    border: hidden;
+    border-radius: 0px 0px 40px 0px;
+    /*background-color: rgba(57, 19, 19, 0.59);  */  
+    background-color: rgba(18, 17, 17, 0.71);
+    margin: 0px 0px 20px;
+}
+
+.transbox p{
+        font-weight: 1400;
+        font-family: 'Uncial Antiqua', cursive;
+        color: white;
+}
+
+.mainbox{
+    padding: 0px;
+    border: 2px groove #FFFFFF;
+    border-radius: 5px;
+    width: 30%;
+    height: 25%;
+    margin: auto;
+    margin-top: 100px;
+    font-family: 'Josefin Sans', sans-serif;
+    background-color: rgba(22, 20, 20, 0.46);
+    font-weight: 400;
+    box-shadow: 4px 4px 2px #141313
+}
+
+.register{
+    background-color: rgba(24, 21, 21, 0.83);
+    font-size: 15px;
+    text-align: center;
+    height: 30px;
+    color: white;
+    padding: 10px 15px;
+}
+
+#createid{
+    color: white;
+    text-decoration: underline;
+}
+
+#createid:hover{
+    color: #E3D9A6;
+}
+
+.leftdiv{
+    margin-left: 30%;
+    color: white;
+}
+
+.login{
+    border-radius: 8px;
+    height: 25px;
+    width: 50%;
+    text-indent: 30px;
+    background-color: #100F0F;
+    color: white;
+    border: 2px inset #323131;
+    border-collapse: collapse;
+}
+
+#usernameid{
+    background-image: url(usericon.png);
+    background-repeat: no-repeat;
+    background-size: 15px;
+    background-position-x: 8px;
+    background-position-y: 3px;
+    margin-top: 15px;
+}
+
+#passwordid{
+    background-image: url(lock.png);
+    background-repeat: no-repeat;
+    background-size: 15px;
+    background-position-x: 8px;
+    background-position-y: 3px;
+}
+
+#signinbtn{
+    width: 52%;
+    height: 30px;
+    border: 2px groove #037148;
+    border-radius: 5px;
+    background-color: #1FA770;
+    color: whitesmoke;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 18px;
+    font-weight: 1400; 
+}
+
+.leftdiv1{
+    margin-left: 20px;
+    font-size: 10px;
+    color: whitesmoke;
+}
+
+#clickid{
+    color: white;
+    text-decoration: underline;
+}
+
+#clickid.hover{
+    color: #E3D9A6;
+}
+
+#textalign{
+    text-align: center;
+    margin-left: 40%;
+}
+
+.iconclass{
+    margin-left: 25%;
+}
+
+#iconstyl{
+    margin: 22px;
+}
+
+.boxone{
+    width:100%;
+    background-color: #100F0F;
+    border: none;
+}
+
+.boxtwo{
+    width:100%;
+    background-color: rgba(24, 21, 21, 0.83);
+    color: #EDEDED;
+    border: none;
+/*
+legend {
+    color: white;
+    border: 1px solid white;
+    text-align: center;
+    padding: 3px;
+    position: absolute;
+    left: 0;
+    top: 0;
+
+    
+    -o-writing-mode: vertical-lr;
+    -ms-writing-mode: vertical-lr;
+    -moz-writing-mode: vertical-lr;
+    -webkit-writing-mode: vertical-lr;
+    writing-mode: vertical-lr;
+
+    
+    -o-transform: rotate(180deg); 
+    -ms-transform: rotate(180deg);
+    -moz-transform: rotate(180deg);
+    -webkit-transform: rotate(180deg);
+    transform: rotate(180deg0); */
+}
